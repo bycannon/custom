@@ -1,1 +1,7 @@
-will copy here
+check50: 
+  files: &check50_files
+    - !require temps.c
+
+submit50: 
+  files: *check50_files
+  style: false
